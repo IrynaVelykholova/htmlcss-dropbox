@@ -157,4 +157,26 @@ header section div i {
     margin-right: 0px;
 }
 
+/* THIRD SECTION  */
+.white-hr {
+    height: 60px;
+    border: none;
+    color: white;
+}
+.third-flex {
+    display: flex;
+}
+section .third-flex h3 {
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.third-text {
+    padding: 50px 40px;
+}
 
+.third-section-button {
+    padding: 10px 20px;
+    border: 1px solid black;
+    font-size: 17px;
+    background-color: white;
+}
