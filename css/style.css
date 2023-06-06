@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100hv;
+    background-color: white;
+}
+
+/* NAV  */
+nav {
+    height: 70px;
+    background-color: aqua;
+    display: flex;
+}
+nav div a {
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
+nav div:first-child {
+    flex-grow: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-left, .nav-right {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav .empty {
+    flex-grow: 18;
+}
+nav div button {
+    background-color: rgb(0, 97, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
