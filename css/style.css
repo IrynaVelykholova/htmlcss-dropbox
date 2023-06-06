@@ -79,6 +79,7 @@ header section div i {
 }
 
 /* MAIN  */
+/* FIRST SECTION  */
 .container-title {
     max-width: 1000px;
     margin: 0 auto;
@@ -86,9 +87,12 @@ header section div i {
 .container {
     max-width: 1000px;
     margin: 0 auto;
+}
+.first-container {
     display: flex;
     justify-content: space-between;
 }
+
 .first-section h2 {
     font-size: 2rem;
     margin-bottom: 50px;
@@ -100,13 +104,14 @@ header section div i {
     margin-bottom: 50px;
 }
 .column {
-    width: 310px;
+    width: 31%;
+
 }
-.mini-container, .user {
+.mini-container, .user, .row, .team {
     border: 1px solid rgb(208, 208, 211);
     border-collapse: collapse;
 }
-.user {
+.user, .team {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -123,6 +128,8 @@ header section div i {
     padding: 10px 15px;
     margin-top: 30px;
     margin-bottom: 40px;
+    margin-right: 0px;
+    margin-left: 15px;
 }
 .line {
     border: 1px solid rgb(208, 208, 211);
@@ -135,3 +142,19 @@ header section div i {
 .check {
     color: rgb(0, 97, 255);
 }
+
+.sections {
+    margin-bottom: 50px;
+}
+
+/* SECOND SECTION  */
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.button-contatta {
+    margin-right: 0px;
+}
+
+
