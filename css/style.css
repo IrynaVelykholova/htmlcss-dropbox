@@ -74,23 +74,20 @@ header .hero-container-right img {
 .button-hero {
     margin: 25px 0px;
 }
-section div i {
+header section div i {
     margin-top: 110px;
 }
 
 /* MAIN  */
 .container-title {
-    max-width: 980px;
+    max-width: 1000px;
     margin: 0 auto;
-    background-color: rgb(173, 134, 245);
 }
 .container {
-    max-width: 980px;
+    max-width: 1000px;
     margin: 0 auto;
-}
-.first-section {
-
-    height: 800Px;
+    display: flex;
+    justify-content: space-between;
 }
 .first-section h2 {
     font-size: 2rem;
@@ -99,6 +96,42 @@ section div i {
 .input {
     margin-left: 30px;
 }
-
-
-rgb(208, 208, 211)
+.inputs {
+    margin-bottom: 50px;
+}
+.column {
+    width: 310px;
+}
+.mini-container, .user {
+    border: 1px solid rgb(208, 208, 211);
+    border-collapse: collapse;
+}
+.user {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mini-container {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.info {
+    margin-bottom: 20px;
+}
+.button-prova {
+    padding: 10px 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.line {
+    border: 1px solid rgb(208, 208, 211);
+    width: 50px;
+    margin-bottom: 40px;
+}
+.informations {
+    display: flex;
+}
+.check {
+    color: rgb(0, 97, 255);
+}
