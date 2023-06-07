@@ -46,7 +46,7 @@ nav div:first-child {
 /* HERO  */
 .hero {
     background-color: rgb(180, 208, 231);
-    height: 630px;
+    height: 100%;
     margin-bottom: 140px;
 }
 .hero-container {
@@ -76,6 +76,10 @@ header .hero-container-right img {
 }
 header section div i {
     margin-top: 110px;
+}
+.empty {
+    background-color: rgb(180, 208, 231);
+    height: 20px;
 }
 
 /* MAIN  */
@@ -146,7 +150,7 @@ header section div i {
     margin-bottom: 50px;
 }
 .mini-container {
-    height: 940px;
+    height: 100%;
 } 
 /* SECOND SECTION  */
 .row {
@@ -208,4 +212,8 @@ section .third-flex h3 {
 .fifth-title {
     font-size: 2rem;
     margin-bottom: 50px;
+    line-height: 40px;
+}
+.hr-particular {
+    height: 30px;
 }
