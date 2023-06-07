@@ -18,6 +18,7 @@ section {
     margin-bottom: 50px;
 }
 /* NAV  */
+
 nav {
     height: 65px;
     display: flex;
@@ -56,6 +57,7 @@ nav div:first-child {
 }
 
 /* TITLES  */
+
 h1 {
     font-size: 3rem;
     font-weight: 800;
@@ -68,6 +70,7 @@ section h2 {
 }
 
 /* HERO  */
+
 .hero {
     background-color: var(--sfondo-azzurro);
     height: 100%;
@@ -102,6 +105,7 @@ header section div i {
 
 /* MAIN  */
 /* FIRST SECTION  */
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -177,6 +181,7 @@ header section div i {
 
 
 /* THIRD SECTION  */
+
 .white-hr {
     height: 60px;
     border: none;
@@ -209,12 +214,33 @@ section .row h3 {
     grid-gap: 30px;
 }
 
+
 .card {
     flex-grow: 1;
     flex-basis: 0;
 }
 
+/* SEZIONE AZZURRA  */
+
+.light-blue {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--sfondo-azzurro);
+}
+.inizia-button {
+    padding: 10px 30px;
+    border: none;
+    font-size: 17px;
+    background-color: white;
+}
+
+.inizia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 /* DOMANDE SECTION  */
+
 .domande-section p {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -226,6 +252,7 @@ section .row h3 {
 }
 
 /* FOOTER  */
+
 footer {
     background-color: black;
     color: white;
