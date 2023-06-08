@@ -240,10 +240,10 @@ section .row h3 {
     justify-content: center;
     align-items: center;
 }
-.box img {
+.box svg {
     width: 50%;
-    height: auto;
-    color: white;
+    height: 100;
+    fill: white;
 }
 
 /* SEZIONE AZZURRA  */
