@@ -220,12 +220,39 @@ section .row h3 {
     flex-basis: 0;
 }
 
+/* CARD SECTION  */
+.card-section {
+    background-color: var(--sfondo-azzurro);
+    display: flex;
+    margin: 0;
+}
+.box-container {
+    border: 1px solid red;
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-container .box {
+    border: 1px solid blue;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box img {
+    width: 50%;
+    height: auto;
+    color: white;
+}
+
 /* SEZIONE AZZURRA  */
 
 .light-blue {
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: var(--sfondo-azzurro);
+    margin: 0;
 }
 .inizia-button {
     padding: 10px 30px;
