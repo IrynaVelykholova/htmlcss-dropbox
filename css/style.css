@@ -222,28 +222,44 @@ section .row h3 {
 
 /* CARD SECTION  */
 .card-section {
-    background-color: var(--sfondo-azzurro);
     display: flex;
     margin: 0;
 }
 .box-container {
-    border: 1px solid red;
     width: calc(100% / 3);
     aspect-ratio: 1/1;
     display: flex;
     flex-wrap: wrap;
 }
 .box-container .box {
-    border: 1px solid blue;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50%;
+
 }
-.box svg {
+.box img {
     width: 50%;
-    height: auto;
-    fill: white;
+    filter: invert(100%);
+}
+.box-green {
+    background-color: rgb(162, 211, 155);
+    border: 10px solid rgb(209, 233, 205);
+}
+
+.box-red {
+    background-color: rgb(213, 0, 31);
+}
+.card-body {
+    padding: 30px 30px;
+    overflow: scroll;
+}
+.card-body img {
+    width: 50%;
+}
+.card-body > p {
+    margin-bottom: 30px;
 }
 
 /* SEZIONE AZZURRA  */
@@ -309,3 +325,10 @@ footer ul li a {
     height: 50px;
     border: none;
 }
+.language {
+    display: flex;
+}
+.language a {
+    margin-left: 7px;
+    margin-top: 4px;
+} 
